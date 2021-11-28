@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Web app with CRUD</title>
+    <link rel="stylesheet" href="web app.css">
+</head>
+
+<body>
+    <div class="container">
+        <form class="form" autocomplete="off" onsubmit="onFormSubmit();" id="form" method="post">
+            <div class="forms">
+                <label class="form-text">ID:</label><br>
+                <input type="number" name="id" id="id" class="form-box" style="overflow: hidden;">
+            </div>
+            <div class="forms">
+                <label class="form-text">Name:</label><br>
+                <input type="text" name="name" id="name" class="form-box">
+            </div>
+            <div class="forms">
+                <label class="form-text">Email:</label><br>
+                <input type="text" name="email" id="email" class="form-box">
+            </div>
+            <div class="forms">
+                <label class="form-text">Gender:</label><br>
+                <select name="gender" id="gender" class="form-box">
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                 </select>
+            </div>
+            <div class="forms">
+                <label class="form-text">Status:</label><br>
+                <select name="status" id="status" class="form-box">
+                  <option value="valid">Valid</option>
+                  <option value="invalid">Invalid</option>
+                </select>
+            </div>
+            <div class="form-action-button">
+                <input type="submit" value="submit" id="submit-btn">
+            </div>
+        </form>
+
+
+        <table class="list" id="userList">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Gender</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+
+    <script src="web app.js"></script>
+</body>
+
+</html>

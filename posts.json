@@ -1,0 +1,14 @@
+{"meta":
+    {"pagination":
+        {"total":1,"pages":1,"page":1,"limit":20,"links":
+            {"previous":null,"current":"https://gorest.co.in/public/v1/posts?page=1","next":null}
+        }
+    },"data":
+
+    [{
+        "id":127,
+        "user_id":123,
+        "title":"Agnitio arcus audax defessus vir deleniti.",
+        "body":"Thalassinus cimentarius una. Tempus suppellex ullam. Tenetur umbra acies. Thymum stips cupressus. A adiuvo validus. Contego quam thermae. Depraedor solutio defetiscor. Tum carus aeneus. Cerno aer adinventitias. Officia tristis auditor. Perferendis thermae ipsa. Basium universe desidero. Venia quia cum. Terebro consuasor molestias. Cometes vigilo defero. Et qui summopere. Chirographum vitium curis. Tenuis vicissitudo minima. Caecus peior agnosco."
+    }]
+}

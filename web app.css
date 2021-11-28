@@ -1,0 +1,70 @@
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+}
+
+.form{
+    grid-column: 1;
+    padding: 20px 30px 20px 30px;
+    margin: 5px 5px 5px 5px;
+    background-color: turquoise;
+}
+
+.list{
+    grid-column: 2;
+    padding: 20px 30px 20px 30px;
+    margin: 5px 5px 5px 5px;
+    border-collapse: collapse;
+    font-size: 0.9em;
+    min-width: 400px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.list thead tr{
+    background-color:#009879;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+.list tbody tr{
+    background-color: #f3f3f3;
+}
+
+.list th, .list td {
+    padding: 12px 15px;
+}
+
+#submit-btn{
+    background-color:white; 
+    border-radius: 5px;
+    color: black;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.form-box{
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.form-text{
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*hide scroll bar in number input*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
