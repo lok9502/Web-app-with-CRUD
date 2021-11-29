@@ -1,1 +1,157 @@
-{"meta":{"pagination":{"total":4749,"pages":238,"page":1,"limit":20,"links":{"previous":null,"current":"https://gorest.co.in/public/v1/users?page=1","next":"https://gorest.co.in/public/v1/users?page=2"}}},"data":[{"id":50,"name":"Omana Patel","email":"omana_patel@parisian-bergnaum.co","gender":"female","status":"inactive"},{"id":54,"name":"Anasuya Chattopadhyay","email":"chattopadhyay_anasuya@larkin.co","gender":"male","status":"inactive"},{"id":55,"name":"Bhisham Arora","email":"bhisham_arora@prohaska-daniel.info","gender":"male","status":"inactive"},{"id":56,"name":"Rep. Chinmayanand Dubashi","email":"dubashi_rep_chinmayanand@koepp-konopelski.name","gender":"male","status":"active"},{"id":57,"name":"Dr. Girika Butt","email":"girika_dr_butt@boehm-welch.org","gender":"male","status":"active"},{"id":58,"name":"Prof. Laxmi Joshi","email":"laxmi_prof_joshi@conroy.io","gender":"male","status":"active"},{"id":59,"name":"Bishnu Ahuja","email":"bishnu_ahuja@weber-wintheiser.co","gender":"female","status":"inactive"},{"id":60,"name":"Oormila Desai","email":"oormila_desai@funk-langworth.biz","gender":"female","status":"active"},{"id":61,"name":"Mukul Rana","email":"rana_mukul@kub.io","gender":"male","status":"active"},{"id":62,"name":"Miss Bhushan Khanna","email":"bhushan_khanna_miss@koelpin.org","gender":"male","status":"active"},{"id":63,"name":"Mrs. Adheesh Kapoor","email":"kapoor_adheesh_mrs@ratke.org","gender":"male","status":"active"},{"id":64,"name":"Deeptendu Arora","email":"arora_deeptendu@swift-torphy.org","gender":"male","status":"inactive"},{"id":65,"name":"Bhima Nambeesan MD","email":"bhima_nambeesan_md@douglas.net","gender":"female","status":"active"},{"id":66,"name":"Ganaka Khan DVM","email":"khan_dvm_ganaka@jerde.net","gender":"female","status":"inactive"},{"id":67,"name":"Gov. Hiranmaya Patil","email":"gov_patil_hiranmaya@goyette-schiller.net","gender":"female","status":"active"},{"id":68,"name":"Gopal Singh CPA","email":"gopal_cpa_singh@murray.info","gender":"female","status":"inactive"},{"id":69,"name":"Anjaneya Pandey PhD","email":"anjaneya_phd_pandey@aufderhar.biz","gender":"male","status":"active"},{"id":70,"name":"Pramila Nehru","email":"pramila_nehru@lakin.info","gender":"male","status":"inactive"},{"id":71,"name":"Bhargava Khan","email":"khan_bhargava@bode.org","gender":"male","status":"active"},{"id":72,"name":"Tara Trivedi","email":"tara_trivedi@wiegand.org","gender":"female","status":"active"}]}
+{
+    "meta": {
+        "pagination": {
+            "total": 4749,
+            "pages": 238,
+            "page": 1,
+            "limit": 20,
+            "links": {
+                "previous": null,
+                "current": "https://gorest.co.in/public/v1/users?page=1",
+                "next": "https://gorest.co.in/public/v1/users?page=2"
+            }
+        }
+    },
+    "data": [
+        {
+            "id": 50,
+            "name": "Omana Patel",
+            "email": "omana_patel@parisian-bergnaum.co",
+            "gender": "female",
+            "status": "inactive"
+        },
+        {
+            "id": 54,
+            "name": "Anasuya Chattopadhyay",
+            "email": "chattopadhyay_anasuya@larkin.co",
+            "gender": "male",
+            "status": "inactive"
+        },
+        {
+            "id": 55,
+            "name": "Bhisham Arora",
+            "email": "bhisham_arora@prohaska-daniel.info",
+            "gender": "male",
+            "status": "inactive"
+        },
+        {
+            "id": 56,
+            "name": "Rep. Chinmayanand Dubashi",
+            "email": "dubashi_rep_chinmayanand@koepp-konopelski.name",
+            "gender": "male",
+            "status": "active"
+        },
+        {
+            "id": 57,
+            "name": "Dr. Girika Butt",
+            "email": "girika_dr_butt@boehm-welch.org",
+            "gender": "male",
+            "status": "active"
+        },
+        {
+            "id": 58,
+            "name": "Prof. Laxmi Joshi",
+            "email": "laxmi_prof_joshi@conroy.io",
+            "gender": "male",
+            "status": "active"
+        },
+        {
+            "id": 59,
+            "name": "Bishnu Ahuja",
+            "email": "bishnu_ahuja@weber-wintheiser.co",
+            "gender": "female",
+            "status": "inactive"
+        },
+        {
+            "id": 60,
+            "name": "Oormila Desai",
+            "email": "oormila_desai@funk-langworth.biz",
+            "gender": "female",
+            "status": "active"
+        },
+        {
+            "id": 61,
+            "name": "Mukul Rana",
+            "email": "rana_mukul@kub.io",
+            "gender": "male",
+            "status": "active"
+        },
+        {
+            "id": 62,
+            "name": "Miss Bhushan Khanna",
+            "email": "bhushan_khanna_miss@koelpin.org",
+            "gender": "male",
+            "status": "active"
+        },
+        {
+            "id": 63,
+            "name": "Mrs. Adheesh Kapoor",
+            "email": "kapoor_adheesh_mrs@ratke.org",
+            "gender": "male",
+            "status": "active"
+        },
+        {
+            "id": 64,
+            "name": "Deeptendu Arora",
+            "email": "arora_deeptendu@swift-torphy.org",
+            "gender": "male",
+            "status": "inactive"
+        },
+        {
+            "id": 65,
+            "name": "Bhima Nambeesan MD",
+            "email": "bhima_nambeesan_md@douglas.net",
+            "gender": "female",
+            "status": "active"
+        },
+        {
+            "id": 66,
+            "name": "Ganaka Khan DVM",
+            "email": "khan_dvm_ganaka@jerde.net",
+            "gender": "female",
+            "status": "inactive"
+        },
+        {
+            "id": 67,
+            "name": "Gov. Hiranmaya Patil",
+            "email": "gov_patil_hiranmaya@goyette-schiller.net",
+            "gender": "female",
+            "status": "active"
+        },
+        {
+            "id": 68,
+            "name": "Gopal Singh CPA",
+            "email": "gopal_cpa_singh@murray.info",
+            "gender": "female",
+            "status": "inactive"
+        },
+        {
+            "id": 69,
+            "name": "Anjaneya Pandey PhD",
+            "email": "anjaneya_phd_pandey@aufderhar.biz",
+            "gender": "male",
+            "status": "active"
+        },
+        {
+            "id": 70,
+            "name": "Pramila Nehru",
+            "email": "pramila_nehru@lakin.info",
+            "gender": "male",
+            "status": "inactive"
+        },
+        {
+            "id": 71,
+            "name": "Bhargava Khan",
+            "email": "khan_bhargava@bode.org",
+            "gender": "male",
+            "status": "active"
+        },
+        {
+            "id": 72,
+            "name": "Tara Trivedi",
+            "email": "tara_trivedi@wiegand.org",
+            "gender": "female",
+            "status": "active"
+        }
+    ]
+}

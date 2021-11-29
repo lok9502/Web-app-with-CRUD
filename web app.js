@@ -1,14 +1,14 @@
 var selectedRow = null
 
 function onFormSubmit(){
-    var formData = readFormData();
-    if (selectedRow == null)
-     insertRecord(formData);
-     else
-     updateRecord(formData);
-
-    resetForm();
-
+    if (validate()) {
+        var formData = readFormData();
+        if (selectedRow == null)
+         insertRecord(formData);
+        else
+         updateRecord(formData);
+        resetForm();
+    }
 }
 
 function readFormData(){
@@ -76,6 +76,21 @@ function onDelete(td){
     document.getElementById("userList").deleteRow(row.rowIndex);
     resetForm();
     }
+}
+
+/* error handling, validation for Name input */
+function validate(){
+    isValid = true;
+    if(document.getElementById("name").value == ""){
+        isValid = false;
+        document.getElementById("nameValidationError").classList.remove("hide");
+        document.getElementById("nameValidationError").removeAttribute("hidden");
+    } else {
+        isValid = true;
+        if(!document.getElementById("nameValidationError").classList.contains("hide"))
+           document.getElementById("nameValidationError").classList.add("hide");
+    }
+    return isValid;
 }
 
 /* api call by using XMLHttpRequest

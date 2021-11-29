@@ -3,7 +3,9 @@
         {"total":1,"pages":1,"page":1,"limit":20,"links":
             {"previous":null,"current":"https://gorest.co.in/public/v1/posts?page=1","next":null}
         }
-    },"data":
+    },
+
+    "data":
 
     [{
         "id":127,

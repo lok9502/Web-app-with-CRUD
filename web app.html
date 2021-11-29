@@ -8,13 +8,13 @@
 
 <body>
     <div class="container">
-        <form class="form" autocomplete="off" onsubmit="onFormSubmit();" id="form" method="post">
+        <form class="form" autocomplete="off" onsubmit="event.preventDefault();onFormSubmit();" id="form" method="post">
             <div class="forms">
                 <label class="form-text">ID:</label><br>
                 <input type="number" name="id" id="id" class="form-box" style="overflow: hidden;">
             </div>
             <div class="forms">
-                <label class="form-text">Name:</label><br>
+                <label class="form-text">Name:</label><label class="validation-error hide" id="nameValidationError" hidden>*Name field is required*</label><br>
                 <input type="text" name="name" id="name" class="form-box">
             </div>
             <div class="forms">
